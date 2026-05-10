@@ -1,65 +1,36 @@
-# Customer Churn Prediction using Machine Learning
+<h1 align="center">🚀 Customer Churn Prediction using Machine Learning</h1>
 
-## Overview
-This project predicts whether a customer is likely to leave a company (churn) using Machine Learning techniques.  
-The project includes data preprocessing, feature engineering, model training, and evaluation.
+<p align="center">
+  <b>Predict customer churn using Machine Learning, Feature Engineering, and Data Preprocessing.</b>
+</p>
 
-The goal is to help businesses identify customers who may leave and improve customer retention strategies.
-
----
-
-## Project Features
-
-- Data Cleaning & Preprocessing
-- Feature Engineering
-- Handling Missing Values
-- One-Hot Encoding
-- Feature Scaling
-- Train/Test Split with Stratification
-- Machine Learning Model Training
-- Model Evaluation
-- Customer Churn Prediction
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Scikit--Learn-ML-orange?style=for-the-badge&logo=scikitlearn">
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-purple?style=for-the-badge&logo=pandas">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-red?style=for-the-badge&logo=jupyter">
+</p>
 
 ---
 
-## Technologies Used
+# 📌 Project Overview
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+This project predicts whether a customer is likely to leave a company (**Customer Churn Prediction**) using Machine Learning techniques.
 
----
+The project includes:
 
-## Dataset Features
+✅ Data Cleaning  
+✅ Feature Engineering  
+✅ Data Preprocessing  
+✅ Encoding & Scaling  
+✅ Machine Learning Model Training  
+✅ Model Evaluation  
 
-The dataset contains customer information such as:
-
-- Credit Score
-- Country
-- Gender
-- Age
-- Tenure
-- Balance
-- Number of Products
-- Credit Card Status
-- Active Member Status
-- Estimated Salary
-
-Additional engineered features:
-
-- Balance Per Product
-- Salary Balance Ratio
-- Age Group
-- Tenure Bucket
-- High Balance Indicator
+The goal is to help businesses identify customers who are likely to churn and improve customer retention strategies.
 
 ---
 
-## Machine Learning Workflow
+# 🧠 Machine Learning Workflow
 
 ```text
 Raw Data
@@ -81,29 +52,68 @@ Customer Churn Prediction
 
 ---
 
-## Data Preprocessing
+# ⚙️ Technologies Used
 
-### Numerical Features
-- Missing value imputation using Median
+| Technology | Purpose |
+|---|---|
+| Python | Programming Language |
+| Pandas | Data Analysis |
+| NumPy | Numerical Computing |
+| Scikit-learn | Machine Learning |
+| Matplotlib | Data Visualization |
+| Seaborn | Visualization |
+| Jupyter Notebook | Development Environment |
+
+---
+
+# 📊 Dataset Features
+
+The dataset contains customer information such as:
+
+- Credit Score
+- Country
+- Gender
+- Age
+- Tenure
+- Balance
+- Number of Products
+- Credit Card Status
+- Active Member Status
+- Estimated Salary
+
+### 🔥 Engineered Features
+
+- Balance Per Product
+- Salary Balance Ratio
+- Age Group
+- Tenure Bucket
+- High Balance Indicator
+
+---
+
+# 🛠️ Data Preprocessing
+
+## 🔢 Numerical Features
+- Missing Value Imputation (Median)
 - Standard Scaling
 
-### Categorical Features
-- Missing value imputation using Most Frequent Value
+## 🔤 Categorical Features
+- Missing Value Imputation (Most Frequent)
 - One-Hot Encoding
 
 ---
 
-## Model Evaluation
+# 📈 Model Evaluation
 
-The project evaluates the model using:
+The model is evaluated using:
 
-- Accuracy Score
-- Confusion Matrix
-- Classification Report
+✅ Accuracy Score  
+✅ Confusion Matrix  
+✅ Classification Report  
 
 ---
 
-## Project Structure
+# 📂 Project Structure
 
 ```text
 Customer_churn_prediction/
@@ -115,27 +125,33 @@ Customer_churn_prediction/
 
 ---
 
-## Installation
+# 🚀 Installation
 
-Clone the repository:
+## 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/MAHABUB122003/Customer_churn_prediction.git
 ```
 
-Move into the project folder:
+---
+
+## 2️⃣ Move into Project Folder
 
 ```bash
 cd Customer_churn_prediction
 ```
 
-Install dependencies:
+---
+
+## 3️⃣ Install Required Libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run Jupyter Notebook:
+---
+
+## 4️⃣ Run Jupyter Notebook
 
 ```bash
 jupyter notebook
@@ -143,48 +159,56 @@ jupyter notebook
 
 ---
 
-## GitHub Repository
+# 🔗 GitHub Repository
 
-GitHub Link:
+👉 Repository Link:
 
+## 🌐
 https://github.com/MAHABUB122003/Customer_churn_prediction
 
 ---
 
-## Learning Outcomes
+# 📚 Learning Outcomes
 
 Through this project, I learned:
 
-- Data preprocessing techniques
-- Feature engineering
-- Handling categorical variables
-- Building ML pipelines
-- Training classification models
-- Evaluating machine learning performance
+- Data Preprocessing
+- Feature Engineering
+- Machine Learning Pipelines
+- Handling Categorical Variables
+- Feature Scaling
+- Model Evaluation
+- Classification Problems
 
 ---
 
-## Future Improvements
+# 🚧 Future Improvements
 
 - Hyperparameter Tuning
 - Multiple Model Comparison
-- Deployment using Flask/Streamlit
+- Streamlit/Flask Deployment
 - Real-time Prediction API
 - Advanced Feature Engineering
 
 ---
 
-## Author
+# 👨‍💻 Author
 
-Mahabubur Rahman
+## MD Mahabubur Rahman
 
-Learning:
+### Learning:
 - Machine Learning
 - Data Science
 - Cybersecurity
 
 ---
 
-## License
+# ⭐ Support
 
-This project is for educational and learning purposes.
+If you like this project, give it a ⭐ on GitHub!
+
+---
+
+# 📜 License
+
+This project is created for educational and learning purposes.
