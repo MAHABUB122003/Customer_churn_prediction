@@ -120,7 +120,7 @@ Customer_churn_prediction/
 │
 ├── Customer_churn_prediction.ipynb
 ├── README.md
-└── dataset.csv
+└── Bank Customer Churn Prediction.csv
 ```
 
 ---
